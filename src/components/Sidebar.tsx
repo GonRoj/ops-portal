@@ -7,6 +7,7 @@ const nav = [
   { to: "/training", label: "Training Mode" },
   { to: "/tickets", label: "Tickets Administrator" },
   { to: "/flows", label: "Flow Visualizer" },
+  { to: "/tojson", label: "Payload to Json" },
 ];
 
 export default function Sidebar() {

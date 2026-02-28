@@ -5,6 +5,7 @@ import Analyzer from "./pages/Analyzer";
 import Training from "./pages/Training";
 import Tickets from "./pages/Tickets";
 import Flows from "./pages/Flows";
+import Tojson from "./pages/Tojson";
 import Sidebar from "./components/Sidebar";
 import Topbar from "./components/Topbar";
 
@@ -24,6 +25,7 @@ export default function App() {
                 <Route path="/training" element={<Training />} />
                 <Route path="/tickets" element={<Tickets />} />
                 <Route path="/flows" element={<Flows />} />
+                <Route path="/tojson" element={<Tojson />} />
                 <Route path="*" element={<Navigate to="/" replace />} />
               </Routes>
             </main>
